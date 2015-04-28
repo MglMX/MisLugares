@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/MisLugares"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        style="@style/MiEstilo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mostrar"
+        android:id="@+id/MostrarLugares"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Preferencias"
+        android:id="@+id/Preferencias"
+        android:layout_below="@+id/MostrarLugares"
+        android:layout_centerHorizontal="true"
+        android:onClick="lanzarPreferencias" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AcercaDe"
+        android:id="@+id/AcercaDe"
+        android:layout_below="@+id/Preferencias"
+        android:layout_centerHorizontal="true"
+        android:onClick="lanzarAcercaDe" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Salir"
+        android:id="@+id/Salir"
+        android:layout_below="@+id/AcercaDe"
+        android:layout_centerHorizontal="true"
+        android:onClick="lanzarSalir" />
+    
+
+</RelativeLayout>

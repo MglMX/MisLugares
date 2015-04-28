@@ -1,4 +1,4 @@
-package com.example.mike.mislugares;
+package com.example.mike1.mislugares;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
